@@ -47,10 +47,18 @@ elif(len(ver_name) >=5 and len(ver_name) <=10 ):
 
 else:
  print("Small words")
-    """
 
 # Level 3 — Intermediate
-# Question 6
+# Question 7
 First_sentence = "Hi my name is abdulrehman and i am a student of software engineering"
 
 print("The first five character are: ", First_sentence[0 : 6])
+    """
+
+# Question 8
+we_name = str(input ("Enter the name : "))
+
+if(we_name [0] == "A" or  we_name [0] == "a"):
+    print("Sentence starts With A or a")
+else:
+     print("Sentence doesnot starts With A or a")
