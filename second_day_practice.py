@@ -30,10 +30,22 @@ if(verb_name.endswith("ing")):
 
 else:
     print("Not a verb")
-
-    """
-
+"""
 # Question no 5: Take a sentence and replace the word "bad" with "good".
-
+"""
 sentence = "i am a good boy and do everything wisely"
 print(sentence.replace("good", "bad"))
+    """
+#Question 6
+
+ver_name = str(input ("Enter the name : "))
+print("The name is :", ver_name)
+if(len(ver_name) >= 10):
+ print( "Long words")
+
+elif(len(ver_name) >=5 and len(ver_name) <=10 ):
+ print ("Medium words")
+
+else:
+ print("Small words")
+
