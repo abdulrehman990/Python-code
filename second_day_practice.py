@@ -35,7 +35,6 @@ else:
 """
 sentence = "i am a good boy and do everything wisely"
 print(sentence.replace("good", "bad"))
-    """
 #Question 6
 
 ver_name = str(input ("Enter the name : "))
@@ -48,4 +47,10 @@ elif(len(ver_name) >=5 and len(ver_name) <=10 ):
 
 else:
  print("Small words")
+    """
 
+# Level 3 — Intermediate
+# Question 6
+First_sentence = "Hi my name is abdulrehman and i am a student of software engineering"
+
+print("The first five character are: ", First_sentence[0 : 6])
