@@ -1,4 +1,4 @@
-""" 
+
 # Program no 1
 first_name = input("Enter the first name = ")
 
@@ -47,7 +47,7 @@ elif (num1 >= num2 and num3):
     print("Num1 is equal to num2 and num3")
 else:
     print("Num1 is smaller than num2 and num3")
-    """
+
 
 # Program no 5
 num= int( input("Enter the Number"))
@@ -57,3 +57,6 @@ if(num % 7 == 0):
 
 else:
     print("Not a Multiple of 7")
+
+
+    
