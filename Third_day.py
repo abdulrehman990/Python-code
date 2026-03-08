@@ -66,6 +66,7 @@ print(list[4])
 print(list[0:3])
     """
 #Program no 7
+""" 
 password = input("Enter the Password : ")
 
 if(len(password) <= 6 ):
@@ -74,3 +75,13 @@ elif(password.find("@") or password.find("$")):
     print("Strong password")
 else:
     print("standard password")
+"""
+
+#Program no 8
+Language = input("Enter the Language : ")
+if(Language == "python"):
+    print("python  lover")
+elif(Language == "Java"):
+    print("Java  lover")
+else:
+    print("Unknown Langauge")
