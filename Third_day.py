@@ -70,3 +70,7 @@ password = input("Enter the Password : ")
 
 if(len(password) <= 6 ):
     print("Weak password")
+elif(password.find("@") or password.find("$")):
+    print("Strong password")
+else:
+    print("standard password")
