@@ -15,11 +15,21 @@ print(movie_list) """
 
 #Program no 2
 
-palidorm = [1,3,3,1]
+""" palidorm = [1,3,3,1]
 palidorm1 = palidorm.copy()
 palidorm1.reverse()
 print(palidorm)
 if(palidorm1 == palidorm):
     print("You are right")
 else:
-    print("Not")
+    print("Not")"""
+
+#Program no 3
+tuple = ("A","C","A","B","A","F","A","E","D")
+
+tuple2= tuple.count("A")
+print(tuple2)
+
+list = ["A","C","A","B","A","F","A","E","D"]
+print(list.sort())
+print(list)
