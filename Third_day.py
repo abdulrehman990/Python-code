@@ -85,3 +85,5 @@ elif(Language == "Java"):
     print("Java  lover")
 else:
     print("Unknown Langauge")
+
+print(Language)
