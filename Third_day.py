@@ -25,6 +25,7 @@ else:
     print("Not")"""
 
 #Program no 3
+"""
 tuple = ("A","C","A","B","A","F","A","E","D")
 
 tuple2= tuple.count("A")
@@ -33,3 +34,13 @@ print(tuple2)
 list = ["A","C","A","B","A","F","A","E","D"]
 print(list.sort())
 print(list)
+"""
+
+#Program no 4
+name = input("Enter the name : ")
+age = input("Enter the age : ")
+course = input("Enter the course : ")
+
+print("My name is ",name)
+print("I am" ,age ,"old")
+print("I study" , course)
