@@ -4,10 +4,10 @@ Question 1
 Take a string from the user and print:
 Length of the string
 First character
-Last character """
+Last character 
 """
-Name =  input("Enter the name: ")
 
+Name =  input("Enter the name: ")
 print("My name is :" , Name)
 print("The lenght of the name is :", len(Name))
 
@@ -22,7 +22,6 @@ print(sub.count("a"))
 # Level 2 — Beginner Logic
 #Question 4: Take a word from the user and check: If the word ends with "ing" → print "Verb" Otherwise → print "Not a verb" 
 
-
 verb_name = input ("Enter the name : ")
 
 if(verb_name.endswith("ing")):
@@ -30,11 +29,12 @@ if(verb_name.endswith("ing")):
 
 else:
     print("Not a verb")
-"""
+
 # Question no 5: Take a sentence and replace the word "bad" with "good".
-"""
+
 sentence = "i am a good boy and do everything wisely"
 print(sentence.replace("good", "bad"))
+
 #Question 6
 
 ver_name = str(input ("Enter the name : "))
@@ -50,12 +50,14 @@ else:
 
 # Level 3 — Intermediate
 # Question 7
+#Take a word from the user and check:
 First_sentence = "Hi my name is abdulrehman and i am a student of software engineering"
 
 print("The first five character are: ", First_sentence[0 : 6])
-    """
+  
 
 # Question 8
+#Take a word from the user and check:
 we_name = str(input ("Enter the name : "))
 
 if(we_name [0] == "A" or  we_name [0] == "a"):
