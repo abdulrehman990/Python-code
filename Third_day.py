@@ -37,6 +37,7 @@ print(list)
 """
 
 #Program no 4
+"""
 name = input("Enter the name : ")
 age = input("Enter the age : ")
 course = input("Enter the course : ")
@@ -44,3 +45,14 @@ course = input("Enter the course : ")
 print("My name is ",name)
 print("I am" ,age ,"old")
 print("I study" , course)
+"""
+#Program no 5
+"""
+username = input("Enter the username : ")
+if(username[0] == "A"):
+ print("Premium User")
+elif(username[0] == "B"):
+ print("Standard user")
+else:
+ print("Guest user")
+ """
