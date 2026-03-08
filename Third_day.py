@@ -58,8 +58,15 @@ else:
  """
 
 #Program no 6
+"""                                             
 list = ["milk", "bread", "eggs", "butter", "rice"]
 
 print(list[0])
 print(list[4])
 print(list[0:3])
+    """
+#Program no 7
+password = input("Enter the Password : ")
+
+if(len(password) <= 6 ):
+    print("Weak password")
