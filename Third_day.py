@@ -56,3 +56,10 @@ elif(username[0] == "B"):
 else:
  print("Guest user")
  """
+
+#Program no 6
+list = ["milk", "bread", "eggs", "butter", "rice"]
+
+print(list[0])
+print(list[4])
+print(list[0:3])
