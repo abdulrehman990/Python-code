@@ -1,4 +1,5 @@
-
+Name = "Hi My name is Abdul rehman"
+print(Name)
 password = input("Enter the password: ")
 
 if not password.isalnum():
@@ -11,7 +12,7 @@ elif password.isalpha():
     print("Good one but require more ")
 
 elif password.isalnum(): 
-    print("Good enogh but require more")
+    print("Good enogh but require more")  
 
 else:
     print("Error")
