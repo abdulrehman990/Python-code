@@ -10,7 +10,7 @@ elif password.isdigit():
 elif password.isalpha():
     print("Good one but require more ")
 
-elif password.isalnum():
+elif password.isalnum(): 
     print("Good enogh but require more")
 
 else:
