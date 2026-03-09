@@ -78,6 +78,7 @@ else:
 """
 
 #Program no 8
+"""
 Language = input("Enter the Language : ")
 if(Language == "python"):
     print("python  lover")
@@ -87,3 +88,5 @@ else:
     print("Unknown Langauge")
 
 print(Language)
+"""
+
