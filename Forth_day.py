@@ -35,10 +35,15 @@ print("It will print all of the Values in the students data" ,  " ", student.val
 print("It will print all of the items in the students data" , " ",   student.items())
 """
 #Program no 4
-inp = input("Enter the key")
 
-dict = {
-    "age " : 21 
+student = {
+    "age": 21
 }
+inp = input("Enter the key: ")
 
-print("The value no found", dict.get("age"))
+value = student.get(inp)
+
+if value is None:
+    print("Key not found")
+else:
+    print("Output:", value)
