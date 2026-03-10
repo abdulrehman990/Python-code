@@ -5,4 +5,5 @@ info = {
     "Year" :  "2022"
 }
 
-print(info[0],[2])
+print(info["author"])
+print(info["Price"])
