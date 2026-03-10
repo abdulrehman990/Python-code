@@ -23,6 +23,7 @@ print("After Update : ", car.keys())
 """
 
 #Program no 3
+"""
 student = {
     "name": "Ahmed",
     "age": 21,
@@ -32,3 +33,12 @@ student = {
 print("It will print all of the keys in the students data" , " ",  student.keys())
 print("It will print all of the Values in the students data" ,  " ", student.values())
 print("It will print all of the items in the students data" , " ",   student.items())
+"""
+#Program no 4
+inp = input("Enter the key")
+
+dict = {
+    "age " : 21 
+}
+
+print("The value no found", dict.get("age"))
