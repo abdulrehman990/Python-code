@@ -50,6 +50,7 @@ else:
 """
 
 #Program no 5
+"""
 student = {
     "name": "Ali",
     "marks": {
@@ -59,3 +60,12 @@ student = {
     }
 }
 print("Math marks" , student ["marks"] ["math"])
+"""
+#Program no 6
+product = {
+    "name": "Laptop",
+    "price": 50000
+}
+print("Before update" , product)
+product.update({"price" : 55000})
+print("updated price" , product  )
