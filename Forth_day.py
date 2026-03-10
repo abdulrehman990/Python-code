@@ -35,7 +35,7 @@ print("It will print all of the Values in the students data" ,  " ", student.val
 print("It will print all of the items in the students data" , " ",   student.items())
 """
 #Program no 4
-
+"""
 student = {
     "age": 21
 }
@@ -47,3 +47,15 @@ if value is None:
     print("Key not found")
 else:
     print("Output:", value)
+"""
+
+#Program no 5
+student = {
+    "name": "Ali",
+    "marks": {
+        "math": 90,
+        "english": 85,
+        "science": 88
+    }
+}
+print("Math marks" , student ["marks"] ["math"])
