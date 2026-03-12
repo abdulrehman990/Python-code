@@ -160,3 +160,12 @@ if vale is None:
 else:
   print("Print it ", name)
 """
+
+product = {
+    "name": "Laptop",
+    "price": 50000
+}
+
+usesr = input("Enter the value : " )
+product.update({"price" : usesr})
+print(product)
