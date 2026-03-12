@@ -116,7 +116,6 @@ for num in numbers:
 
 print(count)
 
-"""
 #Program no 12
 student_data = {
     
@@ -127,3 +126,18 @@ student_data.update({"Roll_no" : 24399})
 student_data.update({"Contact_no" : "0326 0781519"})
 
 print(student_data)
+
+"""
+
+product = {
+    "Shampoo" : 2000,
+    "Sanitizer" : 200,
+    "Bat" : 1200,
+    "Books" : 200,
+
+}
+new = max(product.values())
+if(new <= 1200 ):
+    print("These are the most expensive things :" , max(product.keys()))
+else:
+    print("Not expensive")
