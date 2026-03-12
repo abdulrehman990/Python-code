@@ -117,3 +117,13 @@ for num in numbers:
 print(count)
 
 """
+#Program no 12
+student_data = {
+    
+}
+student_data.update({"Name" : "Abdul rehman"})
+student_data.update({"Class" : "BSSE"})
+student_data.update({"Roll_no" : 24399})
+student_data.update({"Contact_no" : "0326 0781519"})
+
+print(student_data)
