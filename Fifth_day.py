@@ -72,7 +72,7 @@ data = {
 
 print("It prints all the keys :", data.keys())
 
-#program no 7
+#program no 8
 data = {
     "name" : "Abdul rehman",
     "age" : 29,
@@ -81,8 +81,7 @@ data = {
 
 print("It prints all the keys :", data.values())
 
-"""
-#program no 8
+#program no 9
 data = {
     "name" : "Abdul rehman",
     "age" : 29,
@@ -90,3 +89,14 @@ data = {
   }
 
 print("It prints all the keys :", data.items())
+
+"""
+#program no 10
+data = {
+    "name" : "Abdul rehman",
+    "age" : 29,
+    "course" : "BSSE",
+  }
+val = input("Enter the value : ")
+Value = data.get(val)
+print("The data is" ,Value)
