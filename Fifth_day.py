@@ -72,7 +72,6 @@ data = {
 
 print("It prints all the keys :", data.keys())
 
-"""
 #program no 7
 data = {
     "name" : "Abdul rehman",
@@ -81,3 +80,13 @@ data = {
   }
 
 print("It prints all the keys :", data.values())
+
+"""
+#program no 8
+data = {
+    "name" : "Abdul rehman",
+    "age" : 29,
+    "course" : "BSSE",
+  }
+
+print("It prints all the keys :", data.items())
