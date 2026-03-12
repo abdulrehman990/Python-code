@@ -170,7 +170,8 @@ product = {
 usesr = input("Enter the value : " )
 product.update({"price" : usesr})
 print(product)
-"""
+
+
 #Program no 3
 
 email = input("Enter the email : " )
@@ -181,3 +182,13 @@ elif(email.find("@yahoo")):
     print("yahoo user")
 else:
     print("unknown user")
+
+"""
+
+#Program no 4
+numbers = [5, 10, 15]
+
+if( numbers[0] + numbers[1] >= numbers[2]) :
+    print("Condition True")
+else:
+    print("Condition False")
