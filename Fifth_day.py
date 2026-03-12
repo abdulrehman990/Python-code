@@ -17,7 +17,7 @@ students = {
 }
 print("Marks of the students are: " , students.values())
 
-#program no 4
+#program no 3
 data = {
     "name" : "Abdul rehman",
     "age" : 29,
@@ -33,7 +33,7 @@ if user is None:
 else:
     print("value : ", value)
 
-  #program no 5
+  #program no 4
 data = {
     "name" : "Abdul rehman",
     "age" : 29,
@@ -42,7 +42,8 @@ data = {
 print("The data before update :",data)
 data.update({"age" : 49})
 print("The data after update :",data)
-"""
+
+#Program no 5
 data = {
     "name" : "Abdul rehman",
     "age" : 29,
@@ -51,3 +52,12 @@ data = {
 print("The data before update :",data)
 data.update({"City" : "Faisalabad"})
 print("The data after update :",data)
+"""
+data = {
+    "name" : "Abdul rehman",
+    "age" : 29,
+    "course" : "BSSE",
+  }
+print("The data before pop :",data)
+data.pop("age")
+print("The data after pop :",data)
