@@ -127,8 +127,7 @@ student_data.update({"Contact_no" : "0326 0781519"})
 
 print(student_data)
 
-"""
-
+#Program no 13
 product = {
     "Shampoo" : 2000,
     "Sanitizer" : 200,
@@ -141,3 +140,7 @@ if(new <= 1200 ):
     print("These are the most expensive things :" , max(product.keys()))
 else:
     print("Not expensive")
+"""
+
+coll = set()
+print(type(coll))
