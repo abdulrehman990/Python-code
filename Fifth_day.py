@@ -80,4 +80,4 @@ data = {
     "course" : "BSSE",
   }
 
-print("It prints all the keys :", data.())
+print("It prints all the keys :", data.values())
