@@ -144,7 +144,7 @@ else:
 #program no 14
 coll = set()
 print(type(coll))
-"""
+
 #Program no 1
 student = {
     "name": "Ali",
@@ -159,3 +159,4 @@ if vale is None:
     print("Return nothing : ")
 else:
   print("Print it ", name)
+"""
