@@ -90,7 +90,6 @@ data = {
 
 print("It prints all the keys :", data.items())
 
-"""
 #program no 10
 data = {
     "name" : "Abdul rehman",
@@ -100,3 +99,21 @@ data = {
 val = input("Enter the value : ")
 Value = data.get(val)
 print("The data is" ,Value)
+
+"""
+
+#Program no 11
+"""
+numbers = [1,2,2,3,3,3]
+
+count = {}
+
+for num in numbers:
+    if num in count:
+        count[num] += 1
+    else:
+        count[num] = 1
+
+print(count)
+
+"""
