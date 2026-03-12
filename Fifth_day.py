@@ -52,7 +52,8 @@ data = {
 print("The data before update :",data)
 data.update({"City" : "Faisalabad"})
 print("The data after update :",data)
-"""
+
+#program no 6
 data = {
     "name" : "Abdul rehman",
     "age" : 29,
@@ -61,3 +62,22 @@ data = {
 print("The data before pop :",data)
 data.pop("age")
 print("The data after pop :",data)
+
+#program no 7
+data = {
+    "name" : "Abdul rehman",
+    "age" : 29,
+    "course" : "BSSE",
+  }
+
+print("It prints all the keys :", data.keys())
+
+"""
+#program no 7
+data = {
+    "name" : "Abdul rehman",
+    "age" : 29,
+    "course" : "BSSE",
+  }
+
+print("It prints all the keys :", data.())
