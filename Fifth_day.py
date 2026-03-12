@@ -145,3 +145,17 @@ else:
 coll = set()
 print(type(coll))
 """
+#Program no 1
+student = {
+    "name": "Ali",
+    "age": 21,
+    "city": "Lahore"
+}
+
+vale = input("Enter the value : " )
+name = student.get(vale)
+
+if vale is None:
+    print("Return nothing : ")
+else:
+  print("Print it ", name)
