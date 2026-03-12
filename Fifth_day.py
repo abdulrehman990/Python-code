@@ -43,3 +43,11 @@ print("The data before update :",data)
 data.update({"age" : 49})
 print("The data after update :",data)
 """
+data = {
+    "name" : "Abdul rehman",
+    "age" : 29,
+    "course" : "BSSE",
+  }
+print("The data before update :",data)
+data.update({"City" : "Faisalabad"})
+print("The data after update :",data)
