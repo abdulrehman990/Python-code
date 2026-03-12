@@ -159,8 +159,9 @@ if vale is None:
     print("Return nothing : ")
 else:
   print("Print it ", name)
-"""
 
+
+#Program no 2
 product = {
     "name": "Laptop",
     "price": 50000
@@ -169,3 +170,14 @@ product = {
 usesr = input("Enter the value : " )
 product.update({"price" : usesr})
 print(product)
+"""
+#Program no 3
+
+email = input("Enter the email : " )
+
+if (email.find("@gmail")):
+    print("Email user")
+elif(email.find("@yahoo")):
+    print("yahoo user")
+else:
+    print("unknown user")
