@@ -183,8 +183,6 @@ elif(email.find("@yahoo")):
 else:
     print("unknown user")
 
-"""
-
 #Program no 4
 numbers = [5, 10, 15]
 
@@ -192,3 +190,4 @@ if( numbers[0] + numbers[1] >= numbers[2]) :
     print("Condition True")
 else:
     print("Condition False")
+"""
