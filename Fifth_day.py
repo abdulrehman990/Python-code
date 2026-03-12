@@ -140,7 +140,8 @@ if(new <= 1200 ):
     print("These are the most expensive things :" , max(product.keys()))
 else:
     print("Not expensive")
-"""
 
+#program no 14
 coll = set()
 print(type(coll))
+"""
