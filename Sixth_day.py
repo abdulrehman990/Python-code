@@ -13,7 +13,7 @@ while i >=1:
 
 """
 #Program no 3
-number = input("Enter the number : " )
+number = int(input("Enter the number : " ))
 count = 1
 while count <= 10 :
     print("The table of given no is :" , number ,"*" , count ,"=" , number * count)
