@@ -17,10 +17,18 @@ count = 1
 while count <= 10 :
     print("The table of given no is :" , number ,"*" , count ,"=" , number * count)
     count += 1
-"""
+
 #Program no 4
 item = [1,4,9,16,25,36,49,64,81,100]
 index = 0
 while index < len(item) :
     print("list printed : ",item[index])
+    index += 1
+"""
+
+item = [1,4,9,16,25,36,49,64,81,100]
+index = 0
+x = 25
+while index == x :
+    print("list printed : ",x)
     index += 1
