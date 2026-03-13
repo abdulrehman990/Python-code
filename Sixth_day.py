@@ -24,7 +24,6 @@ index = 0
 while index < len(item) :
     print("list printed : ",item[index])
     index += 1
-"""
 
 item = [1,4,9,16,25,36,49,64,81,25,100]
 index = 0
@@ -33,3 +32,4 @@ while index < len(item) :
     if item[index] == x:
         print("list printed : ",index)
     index += 1
+"""
