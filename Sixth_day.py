@@ -26,7 +26,7 @@ while index < len(item) :
     index += 1
 """
 
-item = [1,4,9,16,25,36,49,64,81,100]
+item = [1,4,9,16,25,36,49,64,81,25,100]
 index = 0
 x=25
 while index < len(item) :
