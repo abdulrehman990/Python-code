@@ -27,8 +27,7 @@ while index < len(item) :
 """
 
 item = [1,4,9,16,25,36,49,64,81,100]
-index = 0
 x = 25
-while index == x :
-    print("list printed : ",x)
-    index += 1
+while item == x :
+    print("list printed : ",item)
+    x += 1
