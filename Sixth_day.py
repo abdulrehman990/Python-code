@@ -60,7 +60,7 @@ while not dig :
     print("The character in this is not a word")
     new1 = input("Enter the word : ")
     print(len(new1))
-
+"""
 #Program no 11
 numbers = [12, 45, 7, 89, 34, 23]
 
@@ -75,6 +75,7 @@ while index < len(numbers):
 
 print("The maximum number in the list is:", maximum)
 
+"""
 #program no 13
 items = ["pen", "book", "laptop", "mobile", "bag"]
 
@@ -103,7 +104,7 @@ while index < len(numbers):
     index += 1
 
 print("The Even no in the list is ", count )
-"""
+
 #program no 18
 password = "admin123"
 
@@ -114,3 +115,4 @@ while new != password:
     new = input("Enter the password: ")
 
 print("Access Granted")
+"""
