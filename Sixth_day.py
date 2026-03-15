@@ -54,7 +54,9 @@ while count < 5:
    print("After Continue")
 """
 #program no 10
-new = int(input("Enter the word : "))
-
-while new  :
-    print("The character in this word is : ",len(new))
+new = input("Enter the word : ")
+dig = new.isalpha()
+while not dig :
+    print("The character in this is not a word")
+    new1 = input("Enter the word : ")
+    print(len(new1))
