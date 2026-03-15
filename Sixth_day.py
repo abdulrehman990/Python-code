@@ -52,7 +52,7 @@ while count < 5:
    if count == 3:
        continue
    print("After Continue")
-"""
+
 #program no 10
 new = input("Enter the word : ")
 dig = new.isalpha()
@@ -60,3 +60,14 @@ while not dig :
     print("The character in this is not a word")
     new1 = input("Enter the word : ")
     print(len(new1))
+"""
+
+numbers = [12, 45, 7, 89, 34, 23]
+
+index = 0
+
+while index < numbers:
+    if max.numbers in numbers :
+        print("This is the maxium number is the list : " , numbers)
+    else:
+        print("terminated")
