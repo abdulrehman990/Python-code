@@ -60,8 +60,8 @@ while not dig :
     print("The character in this is not a word")
     new1 = input("Enter the word : ")
     print(len(new1))
-"""
 
+#Program no 11
 numbers = [12, 45, 7, 89, 34, 23]
 
 index = 0
@@ -74,3 +74,32 @@ while index < len(numbers):
     index += 1
 
 print("The maximum number in the list is:", maximum)
+
+#program no 13
+items = ["pen", "book", "laptop", "mobile", "bag"]
+
+index = 0
+new = input("Enter the Word : ")
+while index < len(items):
+    if new == items[index] :
+        print("The value is present", )
+        break 
+    index += 1
+    
+else:
+     print("The value is not present")
+"""
+
+#PROGRAM NO 10
+numbers = [3, 8, 15, 20, 7, 12, 10]
+index = 0
+count = 0
+while index < len(numbers):
+    if numbers[index] % 2 == 0 :
+        
+        print("Even no",numbers[index] )
+        count +=1 
+
+    index += 1
+
+print("The Even no in the list is ", count )
