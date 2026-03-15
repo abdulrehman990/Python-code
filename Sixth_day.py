@@ -32,7 +32,6 @@ while index < len(item) :
     if item[index] == x:
         print("list printed : ",index)
     index += 1
-"""
 
 i = 1
 total = 0
@@ -43,3 +42,14 @@ while i <= 100:
     i += 1
 
 print("Sum of even numbers:", total)
+"""
+
+#What does the following Python code do?
+
+count = 0
+while count < 5:
+   print("Count:", count)
+   count += 1
+   if count == 3:
+       continue
+   print("After Continue")
