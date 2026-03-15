@@ -42,7 +42,6 @@ while i <= 100:
     i += 1
 
 print("Sum of even numbers:", total)
-"""
 
 #What does the following Python code do?
 
@@ -53,3 +52,9 @@ while count < 5:
    if count == 3:
        continue
    print("After Continue")
+"""
+#program no 10
+new = int(input("Enter the word : "))
+
+while new  :
+    print("The character in this word is : ",len(new))
