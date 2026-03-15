@@ -65,9 +65,12 @@ while not dig :
 numbers = [12, 45, 7, 89, 34, 23]
 
 index = 0
+maximum = numbers[0]
 
-while index < numbers:
-    if max.numbers in numbers :
-        print("This is the maxium number is the list : " , numbers)
-    else:
-        print("terminated")
+while index < len(numbers):
+    if numbers[index] > maximum:
+        maximum = numbers[index]
+
+    index += 1
+
+print("The maximum number in the list is:", maximum)
