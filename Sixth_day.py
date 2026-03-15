@@ -106,11 +106,11 @@ print("The Even no in the list is ", count )
 """
 #program no 18
 password = "admin123"
-new = input("Enter the password : ")
-while new is True:
-    if( new == password):
-        print("You entered incorrect password. Enter again : ",new)
-    new += 1
 
-else:
-    print("terminated")
+new = input("Enter the password: ")
+
+while new != password:
+    print("Incorrect password. Try again.")
+    new = input("Enter the password: ")
+
+print("Access Granted")
