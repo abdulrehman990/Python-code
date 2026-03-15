@@ -88,8 +88,8 @@ while index < len(items):
     
 else:
      print("The value is not present")
-"""
 
+     
 #PROGRAM NO 10
 numbers = [3, 8, 15, 20, 7, 12, 10]
 index = 0
@@ -103,3 +103,14 @@ while index < len(numbers):
     index += 1
 
 print("The Even no in the list is ", count )
+"""
+#program no 18
+password = "admin123"
+new = input("Enter the password : ")
+while new is True:
+    if( new == password):
+        print("You entered incorrect password. Enter again : ",new)
+    new += 1
+
+else:
+    print("terminated")
