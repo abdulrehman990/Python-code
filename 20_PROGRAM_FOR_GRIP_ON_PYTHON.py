@@ -19,6 +19,7 @@ name = input("Enter the word : ")
 reversed_name = name[ :: -1 ]
 print("The reverse list is : ",reversed_name)
 """
+"""
 #Print only numbers greater than 10.
 numbers = [4, 7, 12, 3, 9, 20]
 index = 0
@@ -27,3 +28,17 @@ while index < len(numbers):
     if numbers[index] > 10:
         print(numbers[index])
     index += 1  
+
+"""
+"""
+#Count how many even numbers exist in the list.
+numbers = [2,5,7,8,10,13,16]
+index = 0
+
+while index < len(numbers):
+    if (numbers [index] % 2 == 0):
+        print(numbers[index])
+
+        index += 1
+
+"""
