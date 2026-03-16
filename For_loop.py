@@ -7,7 +7,7 @@ while i <= 10:
 
 
 name = 1
- 
+
 for i in name :
     print(i,i+1)
     name += 1
