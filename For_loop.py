@@ -5,6 +5,7 @@ while i <= 10:
     i +=1
 """
 
+
 name = 1
  
 for i in name :
