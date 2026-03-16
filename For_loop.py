@@ -8,5 +8,5 @@ while i <= 10:
 name = 1
  
 for i in name :
-    print(name,name+1)
-    i += 1
+    print(i,i+1)
+    name += 1
