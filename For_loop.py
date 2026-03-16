@@ -19,7 +19,7 @@ for i in range(1,rows+1):
 
 i = 1
 new = int(input("Enter the digit : "))
-while i < new :
-    i = new + 1
-    
-    print("Sum is : ", i+new)
+while i <= new :
+    sum = sum + i
+    i += 1
+print("Sum is : ", sum)
