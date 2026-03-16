@@ -20,6 +20,6 @@ for i in range(1,rows+1):
 i = 1
 new = int(input("Enter the digit : "))
 while i < new :
-    print("Sum is : ", i+new)
-
     i += 1
+    
+    print("Sum is : ", i+new)
