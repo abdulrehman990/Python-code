@@ -19,6 +19,7 @@ for i in range(1,rows+1):
 
 i = 1
 new = int(input("Enter the digit : "))
+sum = 0
 while i <= new :
     sum = sum + i
     i += 1
