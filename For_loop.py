@@ -39,9 +39,10 @@ while data >= i:
     i += 1
 """
 numbers = [12, 75, 150, 180, 145, 525, 50]
+
 index = 0
 
 while index < len(numbers):
-    if(numbers[index] % 5 ==0):
+    if numbers[index] % 5 == 0:
         print(numbers[index])
     index += 1
