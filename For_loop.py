@@ -84,3 +84,10 @@ for i in range(0,n+1):
         print(j,end=' ')
     print()
 """
+
+list1 = [10, 20, 30, 40, 50]
+Index = 0
+
+while Index < len(list1):
+    list1.reverse()
+    print(list1)
