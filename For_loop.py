@@ -43,5 +43,6 @@ index = 0
 max = numbers[0]
 while index < len(numbers):
     if(max % 5 ==0):
-        print(numbers)
+        numbers[index] = numbers
     index += 1
+print(max)
