@@ -49,7 +49,6 @@ while index < len(numbers):
         print(numbers[index])
     index += 1
 
-"""
 #for max number
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
@@ -61,3 +60,4 @@ while index < len(numbers):
         max = numbers[index]
     index += 1
 print(max)
+"""
