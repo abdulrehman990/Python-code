@@ -61,3 +61,10 @@ while index < len(numbers):
     index += 1
 print(max)
 """
+
+words = input("Enter the digits : ")
+count = 0
+while count != 0:
+    count = count + 1
+print(words)
+print("Total numbers",count)
