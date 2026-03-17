@@ -40,9 +40,8 @@ while data >= i:
 """
 numbers = [12, 75, 150, 180, 145, 525, 50]
 index = 0
-max = numbers[0]
+
 while index < len(numbers):
-    if(max % 5 ==0):
-        numbers[index] = numbers
+    if(numbers[index] % 5 ==0):
+        print(numbers[index])
     index += 1
-print(max)
