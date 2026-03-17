@@ -60,11 +60,27 @@ while index < len(numbers):
         max = numbers[index]
     index += 1
 print(max)
-"""
 
-words = input("Enter the digits : ")
+words = int(input("Enter the digits : "))
 count = 0
-while count != 0:
-    count = count + 1
-print(words)
-print("Total numbers",count)
+
+while words != 0:
+    words = words // 10   # last digit remove
+    count += 1
+
+print("Total numbers:", count)
+
+
+sums = 6
+for i in range(sums-1,0,-1):
+    for j in range(5,i-1,-1):
+        print(j,end=" ")
+    print('')
+
+n = 5
+k = 5
+for i in range(0,n+1):
+    for j in range(k-i,0,-1):
+        print(j,end=' ')
+    print()
+"""
