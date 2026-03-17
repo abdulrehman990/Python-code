@@ -32,3 +32,9 @@ for i in range (1,rows + 1):
     print(' ')
 
 """
+
+data = int(input("Enter the value : "))
+i = 1
+while data >= i:
+    print("The table of given number is ",data , "*",i,"=",data*i )
+    i += 1
