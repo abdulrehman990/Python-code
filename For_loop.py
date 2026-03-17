@@ -14,7 +14,7 @@ for i in range(1,rows+1):
     print('')
 
 
-
+#for all numbers sum
 
 i = 1
 new = int(input("Enter the digit : "))
@@ -24,6 +24,7 @@ while i <= new :
     i += 1
 print("Sum is : ", sum)
 
+#for 1 12 123 1234 12345
 rows = 6
 
 for i in range (1,rows + 1):
@@ -31,13 +32,14 @@ for i in range (1,rows + 1):
         print(j, end=" ")
     print(' ')
 
-
+#table
 data = int(input("Enter the value : "))
 i = 1
 while data >= i:
     print("The table of given number is ",data , "*",i,"=",data*i )
     i += 1
-"""
+
+#for find divide by 5
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
 index = 0
@@ -46,3 +48,16 @@ while index < len(numbers):
     if numbers[index] % 5 == 0:
         print(numbers[index])
     index += 1
+
+"""
+#for max number
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+index = 0
+max = numbers[0]
+
+while index < len(numbers):
+    if max < numbers[index]:
+        max = numbers[index]
+    index += 1
+print(max)
