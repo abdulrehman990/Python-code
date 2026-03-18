@@ -4,7 +4,7 @@ print(len(data))
 print(data.index("Ali"))
 
 
-name  = ["python"]
-name.sort(reverse=True)
-print(name)
+name  = "python"
+reversed_text= name[::-1]
+print(reversed_text)
 
