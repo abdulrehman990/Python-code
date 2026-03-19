@@ -28,7 +28,7 @@ marks = { "Math" : input("Enter you Math marks : " ),
          "English" : input("Enter you English marks : " ),
          "Physics" : input("Enter you Math marks :" ),}
 total_marks = marks["English"] + marks["Math"] + marks["Physics"]
-percentage = (total_marks / 100 ) * 100
+percentage = (int(total_marks) / 100 ) * 100
 
 if(percentage <= 80):
     "Grade A"
