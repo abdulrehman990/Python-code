@@ -27,11 +27,11 @@ roll_no = input("Enter the Roll no : ")
 """
 marks = { "Math" : input("Enter you Math marks : " ),
          "English" : input("Enter you English marks : " ),
-         "Physics" : input("Enter you Math marks :" ),}
+         "Physics" : input("Enter you Math marks : " ),}
 total_marks = marks["English"] + marks["Math"] + marks["Physics"]
 percentage = (int(total_marks) / 100 ) * 100
 
-if(percentage <= 80):
+if(percentage >= 80):
     "Grade A"
 elif(percentage <= 70 and percentage >=79):
     "Grade B"
