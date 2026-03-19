@@ -20,6 +20,11 @@ while True:
         print("Invalid Password! Try again.")
         print("Your password must have at least 7 characters and Special characters")
 
+
 name = input("Enter the Name : ")
 degree = input("Enter the Degree : ")
 roll_no = input("Enter the Roll no : ")
+marks = { "Math" : input("Enter you Math marks : "),
+         "English" : input("Enter you English marks : "),
+         "Physics" : input("Enter you Math marks :"),}
+
