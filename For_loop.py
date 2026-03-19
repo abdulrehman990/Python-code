@@ -76,17 +76,12 @@ for i in range(sums-1,0,-1):
     for j in range(5,i-1,-1):
         print(j,end=" ")
     print('')
-
+"""
 n = 5
-k = 5
-for i in range(0,n+1):
-    for j in range(k-i,0,-1):
+
+for i in range(n,0,-1):
+    for j in range(i,0,-1):
         print(j,end=' ')
     print()
-"""
-
-list1 = [10, 20, 30, 40, 50]
-
-for items in list1:
 
     
