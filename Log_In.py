@@ -59,7 +59,16 @@ else:
     print("You are Fail!")
 
 print()
-print("Stoes student data in list")
+print("Stores student data in list for University record")
+student = {
+    "name": name,
+    "degree": degree,
+    "roll_no": roll_no,
+    "marks": marks,
+    "percentage": percentage
+}
 
-
+students = []
+students.append(student)
+print(students)
 
