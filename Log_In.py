@@ -13,7 +13,7 @@ while True:
 
 while True:
      password = input("Enter the Password: ")
-     if  not password.isalnum() and len(password) == 7:
+     if  not password.isalnum() and len(password) >= 7:
         print()
         print("**********Welcome you have Logged in.**********")
         print()
@@ -57,6 +57,9 @@ elif(percentage <= 50 and percentage >=59):
     print("Grade D")
 else:
     print("You are Fail!")
+
+print()
+print("Stoes student data in list")
 
 
 
