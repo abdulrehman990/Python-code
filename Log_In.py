@@ -59,7 +59,8 @@ else:
     print("You are Fail!")
 
 print()
-print("Stores student data in list for University record")
+print("**********Stores student data in list for University record**********")
+print()
 student = {
     "name": name,
     "degree": degree,
@@ -72,3 +73,6 @@ students = []
 students.append(student)
 print(students)
 
+while True:
+    print("The student data is stored.Enter new student data")
+    break
