@@ -72,4 +72,6 @@ student = {
 students = []
 students.append(student)
 print(students)
-
+print()
+print()
+print()
