@@ -78,7 +78,6 @@ for i in range(sums-1,0,-1):
     print('')
 """
 
-for i in range(0,6):
-    for j in range(i,i+2,2):
-        print("       *       ",end=" ")
-    print(i)
+for i in range(1, 6):
+    print(" " * (5 - i), end="")
+    print("* " * i)
