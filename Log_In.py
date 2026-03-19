@@ -4,7 +4,7 @@ while True:
     email = input("Enter the Email: ")
     
     if "@" in email:
-        print("Now Press Enter to put password.")
+        print("Email added")
         break
     else:
         print("Invalid Email! Try again.")
@@ -14,5 +14,8 @@ while True:
      if  not password.isalnum() and len(password) == 7:
         print("Welcome you have Logged in.")
         break
+     elif(len(password) != 7 ):
+         print("Your password must have at least 7 characters")
      else:
-        print("Invalid Password! Try again.Your password must have at least 7 characters")      
+        print("Invalid Password! Try again.")
+        print("Your password must have at least 7 characters and Special characters")
