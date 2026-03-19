@@ -1,6 +1,6 @@
 
 print("**********Welcome to login form*************")
-
+print()
 while True:
     email = input("Enter the Email: ")
     
@@ -14,7 +14,7 @@ while True:
      password = input("Enter the Password: ")
      if  not password.isalnum() and len(password) == 7:
         print("**********Welcome you have Logged in.**********")
-        print(end=" ")
+        print()
         break
      elif(len(password) != 7 ):
          print("Your password must have at least 7 characters")
@@ -25,7 +25,7 @@ while True:
 name = input("Enter the Name : ")
 degree = input("Enter the Degree : ")
 roll_no = input("Enter the Roll no : ")
-
+print()
 marks = {
     "Math": int(input("Enter your Math marks: ")),
     "English": int(input("Enter your English marks: ")),
@@ -36,8 +36,9 @@ total_marks = marks["Math"] + marks["English"] + marks["Physics"]
 
 percentage = (total_marks / 300) * 100
 
-print(end=" ")
+print()
 print ("**********Here's the student data.**********")
+print()
 print(name)
 print(degree)
 print(roll_no)
