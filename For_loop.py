@@ -89,3 +89,9 @@ for i in range(5, 0, -1):
         print("Hello, World!")
 
 hello()
+
+
+nums = (1,3,4,6)
+nums = nums[-2:-1]
+nums = nums [-1]
+print(nums)
