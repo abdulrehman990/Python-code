@@ -35,6 +35,13 @@ total_marks = marks["Math"] + marks["English"] + marks["Physics"]
 
 percentage = (total_marks / 300) * 100
 
+print ("Here's the student data:")
+"""print(name)
+print(degree)
+print(roll_no)"""
+
+print(marks.items())
+print(percentage)
 if(percentage >= 80):
     print("Grade A")
 elif(percentage <= 70 and percentage >=79):
@@ -47,9 +54,4 @@ else:
     print("You are Fail!")
 
 
-print ("Here's the student data:")
-"""print(name)
-print(degree)
-print(roll_no)"""
-print(marks.items())
-print(percentage)
+
