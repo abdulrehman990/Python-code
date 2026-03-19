@@ -44,8 +44,8 @@ else:
 
 
 print ("Here's the student data:")
-print(name)
+"""print(name)
 print(degree)
-print(roll_no)
+print(roll_no)"""
 print(marks)
 print(percentage)
