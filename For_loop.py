@@ -77,10 +77,9 @@ for i in range(sums-1,0,-1):
         print(j,end=" ")
     print('')
 """
-n = 5
+n = 10
 
-for i in range(n,0,-1):
-    print(end=' ')
-    print()
+for i in range(0,n,-1):
+    print(i)
 
     
