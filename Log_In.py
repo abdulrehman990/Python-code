@@ -8,4 +8,10 @@ while True:
         break
     else:
         print("Invalid Email! Try again.")
+
+password = input("Enter the Password: ")
+if  "$" in password:
+        print("Welcome you have Logged in.")
+else:
+        print("Invalid Password! Try again.")
       
