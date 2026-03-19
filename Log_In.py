@@ -27,7 +27,7 @@ roll_no = input("Enter the Roll no : ")
 marks = { "Math" : input("Enter you Math marks : " ),
          "English" : input("Enter you English marks : " ),
          "Physics" : input("Enter you Math marks :" ),}
-total_marks = {"math" + "english" + "physics"}
+total_marks = marks["English"] + marks["Math"] + marks["Physics"]
 percentage = (total_marks / 100 ) * 100
 
 if(percentage <= 80):
