@@ -1,4 +1,4 @@
-"""
+
 print("**********Welcome to login form*************")
 
 while True:
@@ -24,7 +24,7 @@ while True:
 name = input("Enter the Name : ")
 degree = input("Enter the Degree : ")
 roll_no = input("Enter the Roll no : ")
-"""
+
 marks = {
     "Math": int(input("Enter your Math marks: ")),
     "English": int(input("Enter your English marks: ")),
@@ -36,12 +36,12 @@ total_marks = marks["Math"] + marks["English"] + marks["Physics"]
 percentage = (total_marks / 300) * 100
 
 print ("Here's the student data:")
-"""print(name)
+print(name)
 print(degree)
-print(roll_no)"""
-
+print(roll_no)
 print(marks.items())
 print(percentage)
+
 if(percentage >= 80):
     print("Grade A")
 elif(percentage <= 70 and percentage >=79):
