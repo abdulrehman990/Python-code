@@ -9,9 +9,10 @@ while True:
     else:
         print("Invalid Email! Try again.")
 
-password = input("Enter the Password: ")
-if  "$" in password:
+while True:
+     password = input("Enter the Password: ")
+     if  not password.isalnum() and len(password) == 7:
         print("Welcome you have Logged in.")
-else:
-        print("Invalid Password! Try again.")
-      
+        break
+     else:
+        print("Invalid Password! Try again.Your password must have at least 7 characters")      
