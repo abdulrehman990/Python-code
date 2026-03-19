@@ -34,4 +34,10 @@ if(percentage <= 80):
     "Grade A"
 elif(percentage <= 70 and percentage >=79):
     "Grade B"
-    
+elif(percentage <= 60 and percentage >=69):
+    "Grade C"
+elif(percentage <= 50 and percentage >=59):
+    "Grade D"
+else:
+    print("You are Fail!")
+
