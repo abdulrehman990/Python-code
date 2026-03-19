@@ -36,13 +36,13 @@ total_marks = marks["Math"] + marks["English"] + marks["Physics"]
 percentage = (total_marks / 300) * 100
 
 if(percentage >= 80):
-    "Grade A"
+    print("Grade A")
 elif(percentage <= 70 and percentage >=79):
-    "Grade B"
+    print("Grade B")
 elif(percentage <= 60 and percentage >=69):
-    "Grade C"
+    print("Grade C")
 elif(percentage <= 50 and percentage >=59):
-    "Grade D"
+    print("Grade D")
 else:
     print("You are Fail!")
 
