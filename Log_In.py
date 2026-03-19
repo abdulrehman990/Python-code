@@ -13,7 +13,8 @@ while True:
 while True:
      password = input("Enter the Password: ")
      if  not password.isalnum() and len(password) == 7:
-        print("Welcome you have Logged in.")
+        print("**********Welcome you have Logged in.**********")
+        print(end=" ")
         break
      elif(len(password) != 7 ):
          print("Your password must have at least 7 characters")
@@ -35,7 +36,8 @@ total_marks = marks["Math"] + marks["English"] + marks["Physics"]
 
 percentage = (total_marks / 300) * 100
 
-print ("Here's the student data:")
+print(end=" ")
+print ("**********Here's the student data.**********")
 print(name)
 print(degree)
 print(roll_no)
