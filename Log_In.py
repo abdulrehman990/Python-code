@@ -25,11 +25,15 @@ name = input("Enter the Name : ")
 degree = input("Enter the Degree : ")
 roll_no = input("Enter the Roll no : ")
 """
-marks = { "Math" : input("Enter you Math marks : " ),
-         "English" : input("Enter you English marks : " ),
-         "Physics" : input("Enter you Math marks : " ),}
-total_marks = marks["English"] + marks["Math"] + marks["Physics"]
-percentage = int((total_marks)) / 100  * 100
+marks = {
+    "Math": int(input("Enter your Math marks: ")),
+    "English": int(input("Enter your English marks: ")),
+    "Physics": int(input("Enter your Physics marks: "))
+}
+
+total_marks = marks["Math"] + marks["English"] + marks["Physics"]
+
+percentage = (total_marks / 300) * 100
 
 if(percentage >= 80):
     "Grade A"
