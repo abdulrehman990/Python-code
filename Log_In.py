@@ -9,7 +9,7 @@ while True:
         print("Email added")
         break
     else:
-        print("Invalid Email! Try again.")
+        print("Invalid Email Format! Try again.")
 
 while True:
      password = input("Enter the Password: ")
