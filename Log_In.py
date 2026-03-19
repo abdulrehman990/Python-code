@@ -24,9 +24,9 @@ while True:
 name = input("Enter the Name : ")
 degree = input("Enter the Degree : ")
 roll_no = input("Enter the Roll no : ")
-marks = { "Math" : input("Enter you Math marks : "),
-         "English" : input("Enter you English marks : "),
-         "Physics" : input("Enter you Math marks :"),}
+marks = { "Math" : input("Enter you Math marks : " ),
+         "English" : input("Enter you English marks : " ),
+         "Physics" : input("Enter you Math marks :" ),}
 total_marks = {"math" + "english" + "physics"}
 percentage = (total_marks / 100 ) * 100
 
@@ -41,3 +41,10 @@ elif(percentage <= 50 and percentage >=59):
 else:
     print("You are Fail!")
 
+
+print ("Here's the student data:")
+print(name)
+print(degree)
+print(roll_no)
+print(marks)
+print(percentage)
