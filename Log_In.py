@@ -73,6 +73,3 @@ students = []
 students.append(student)
 print(students)
 
-while True:
-    print("The student data is stored.Enter new student data")
-    break
