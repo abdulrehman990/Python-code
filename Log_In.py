@@ -19,8 +19,7 @@ while True:
      else:
         print("Invalid Password! Try again.")
         print("Your password must have at least 7 characters and Special characters")
-print(end=" ")
-print(end=" ")
+
 name = input("Enter the Name : ")
 degree = input("Enter the Degree : ")
 roll_no = input("Enter the Roll no : ")
