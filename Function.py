@@ -23,7 +23,6 @@ def print_list(lists):
         print(list, end=" ")
 
 print_list(cities)
-"""
 
 #program no 4
 def factorial(n):
@@ -32,3 +31,4 @@ def factorial(n):
         print(n)
 
 factorial(7)
+"""
