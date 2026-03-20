@@ -38,7 +38,8 @@ def currency(n):
     print("Price of", n , "Dollars in pakistani rupees is : ", pakistani_rupees)
 
 currency(2)
-"""
+
+
 #program no 5
 def check_number():
     number = int(input("Enter the number : "))
@@ -47,3 +48,14 @@ def check_number():
     else:
         print("Odd number : " , number)
 check_number()
+
+"""
+def check_number(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+num = int(input("Enter the number: "))
+result = check_number(num)
+print(result, "number:", num)
