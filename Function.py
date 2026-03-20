@@ -41,9 +41,9 @@ currency(2)
 """
 #program no 5
 def check_number(number):
-    number = input("Enter the number : ")
+    number = int(input("Enter the number : "))
     if (number % 2 == 0):
-        print("Even number : ")
+        print("Even number : ", number)
     else:
-        print("Odd number : ")
-check_number(number=input())
+        print("Odd number : " , number)
+check_number('number')
