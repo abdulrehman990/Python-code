@@ -32,3 +32,8 @@ def factorial(n):
 
 factorial(7)
 """
+def currency(n):
+    pakistani_rupees = n * 280
+    print("Price of",n "Dollars in pakistani rupees is : ", pakistani_rupees)
+
+currency(2)
