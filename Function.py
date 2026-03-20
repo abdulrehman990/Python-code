@@ -40,10 +40,10 @@ def currency(n):
 currency(2)
 """
 #program no 5
-def check_number(number):
+def check_number():
     number = int(input("Enter the number : "))
     if (number % 2 == 0):
         print("Even number : ", number)
     else:
         print("Odd number : " , number)
-check_number('number')
+check_number()
