@@ -31,9 +31,19 @@ def factorial(n):
         print(n)
 
 factorial(7)
-"""
+
+#program no 5
 def currency(n):
     pakistani_rupees = n * 280
     print("Price of", n , "Dollars in pakistani rupees is : ", pakistani_rupees)
 
 currency(2)
+"""
+#program no 5
+def check_number(number):
+    number = input("Enter the number : ")
+    if (number % 2 == 0):
+        print("Even number : ")
+    else:
+        print("Odd number : ")
+check_number(number=input())
